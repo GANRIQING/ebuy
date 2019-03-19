@@ -12,7 +12,7 @@ public final class DBHelper {
 	// 获取数据库Connection对象
 	public static Connection getConnection() {
 		String driver="com.mysql.jdbc.Driver";//驱动类
-		String url="jdbc:mysql://localhost:3306/my?characterEncoding=utf-8";//数据库连接地址
+		String url="jdbc:mysql://localhost:3306/ebuy?characterEncoding=utf-8";//数据库连接地址
 		String username="user";//数据库连接所需账户名
 		String password="123456";//数据库连接所需密码
 		Connection conn = null;
